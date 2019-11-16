@@ -8,7 +8,7 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Contacto</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3">soporte.tecnico@twicky.com.mx</a></li>
+                  <li><a class="grey-text text-lighten-3">soporte.tecnico@twicky.app</a></li>
                   <li><a class="grey-text text-lighten-3">San Pedro Garza García, Nuevo León, México</a></li>
                 </ul>
               </div>

@@ -1,4 +1,4 @@
-@include('portafolio.create')
+
 <ul id="slide-out" class="sidenav">
     <li>
     @if(Auth::guest())
