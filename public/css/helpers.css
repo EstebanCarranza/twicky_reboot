@@ -1,0 +1,66 @@
+img.nav-img-profile
+{
+width:32px; height:32px;margin-top:16px;border-radius:50%;
+}
+.inner-background-container
+{
+    -webkit-box-shadow: inset 0px 0px 100px 10px rgba(0,0,0,1),0px 0px 50px 5px rgba(0,0,0,1);
+    -moz-box-shadow:    inset 0px 0px 100px 10px rgba(0,0,0,1),0px 0px 50px 5px rgba(0,0,0,1);
+    box-shadow:         inset 0px 0px 100px 10px rgba(0,0,0,1),0px 0px 50px 5px rgba(0,0,0,1);
+}
+.ec-container
+{
+    padding:4%;
+    border-box:box-sizing;
+    border-radius:4px;
+    margin-bottom:2%;
+}
+.ir-arriba 
+{
+    display:none;
+    padding:20px;
+    background:#0249597c;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    /*bottom:20px;
+    right:20px;*/
+    bottom:32px;
+    left:calc(50% - 32px);
+    right:calc(50%-32px);
+    border-radius: 50%;
+}
+nav .openSidebarUser
+{
+    height:64px;
+    padding:0 15px;
+}
+.openSidebarUser:hover
+{
+    background:rgba(0,0,0,0.1);
+    cursor:pointer;
+    
+}
+.nav-img-profile
+{
+    display:block;
+}
+@media only screen and (max-width: 480px) 
+{
+  nav, nav .sidenav-trigger i, nav .sidenav-trigger #imgProfile
+  {
+    line-height: 32px;
+  }
+ img.nav-img-profile
+  {
+    margin-top:0px;
+  }
+}
+
+@media screen and (max-width: 700px) 
+{
+    .ec-container {
+        width:100%;
+        }
+}
