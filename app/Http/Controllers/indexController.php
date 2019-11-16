@@ -13,6 +13,7 @@ class indexController extends Controller
      */
     public function index()
     {
+
         //view index
         return view('index');
     }
@@ -25,6 +26,7 @@ class indexController extends Controller
     public function create()
     {
         //
+        return 'create';
     }
 
     /**
@@ -36,6 +38,7 @@ class indexController extends Controller
     public function store(Request $request)
     {
         //
+        return 'store';
     }
 
     /**
@@ -47,6 +50,7 @@ class indexController extends Controller
     public function show($id)
     {
         //
+        return 'show';
     }
 
     /**
@@ -58,6 +62,7 @@ class indexController extends Controller
     public function edit($id)
     {
         //
+        return 'edit';
     }
 
     /**
@@ -70,6 +75,7 @@ class indexController extends Controller
     public function update(Request $request, $id)
     {
         //
+        return 'update';
     }
 
     /**
@@ -81,5 +87,6 @@ class indexController extends Controller
     public function destroy($id)
     {
         //
+        return 'destroy';
     }
 }

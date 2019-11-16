@@ -48,6 +48,7 @@ class portfolioController extends Controller
     public function show($id)
     {
         //
+        return redirect()->route('portafolio.index', ['type' => $id]);
     }
 
     /**

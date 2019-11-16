@@ -38,7 +38,7 @@
                         </div>
                         <div class='card-content'>
                           <span class='card-title activator grey-text text-darken-4'>Twicky<i class='material-icons right'>more_vert</i></span>
-                          <p><a target='_blank' href='http://twicky.com.mx'>Ir al sitio</a></p>
+                          <p><a target='_blank' href='https://twicky.app'>Ir al sitio</a></p>
                         </div>
                         <div class='card-reveal'>
                           <span class='card-title grey-text text-darken-4'>Twicky<i class='material-icons right'>close</i></span>
@@ -258,7 +258,7 @@
                         </div>
                         <div class='card-content'>
                           <span class='card-title activator grey-text text-darken-4'>sisFilR<i class='material-icons right'>more_vert</i></span>
-                          <p><a target='_blank' href='http://twicky.com.mx/download/sisFilR.iso'>Ir al sitio</a></p>
+                          <p><a target='_blank' href='https://twicky.app/download/sisFilR.iso'>Ir al sitio</a></p>
                         </div>
                         <div class='card-reveal'>
                           <span class='card-title grey-text text-darken-4'>sisFilR<i class='material-icons right'>close</i></span>
@@ -439,7 +439,7 @@
                     "<div class='col l4 m6 s12 animated-card'>
                       <div class='card small hoverable'>
                         <div class='card-image waves-effect waves-block waves-light'>
-                          <img class='activator' src='http://twicky.com.mx/img/dangoslife.png'>
+                          <img class='activator' src='https://twicky.app/img/dangoslife.png'>
                         </div>
                         <div class='card-content'>
                           <span class='card-title activator grey-text text-darken-4'>Dango's Life<i class='material-icons right'>more_vert</i></span>
@@ -464,7 +464,7 @@
                     "<div class='col l4 m6 s12 animated-card'>
                       <div class='card small hoverable'>
                         <div class='card-image waves-effect waves-block waves-light'>
-                          <img class='activator' src='http://twicky.com.mx/img/claudicacion.png'>
+                          <img class='activator' src='https://twicky.app/img/claudicacion.png'>
                         </div>
                         <div class='card-content'>
                           <span class='card-title activator grey-text text-darken-4'>Claudicación<i class='material-icons right'>more_vert</i></span>
