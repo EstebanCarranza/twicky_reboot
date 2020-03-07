@@ -7,8 +7,8 @@
                 <div class="input-field col l10 s12">
                   <select name="type">
                     <option value="" disabled selected>Elige una opción</option>
-                    <option value="IND">Individual</option>
-                    <option value="COL">Colaborativo</option>
+                    <option value="1">Individual</option>
+                    <option value="2">Colaborativo</option>
                   </select>
                   <label>Categoría</label>
                 </div>
@@ -19,6 +19,9 @@
                 </div>
               </form>
             </div>
+            @foreach ($errorList as $error)
+              <h3 class="red-text"> {{$error}}</h3>
+            @endforeach
             @foreach ($cardPublications as $cardPublication)
                <div class='col l4 m6 s12 animated-card'>
                     <div class='card small hoverable'>

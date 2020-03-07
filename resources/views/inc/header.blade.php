@@ -25,16 +25,11 @@
       <div class="nav-wrapper">
         <a href="/" class="brand-logo">Twicky</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <a href="#" data-target="slide-out" class="openSidebarUser sidenav-trigger right"><img id="" src="http://opemo.twicky.com.mx/defaultData/avatar_.png" class=" nav-img-profile" ></a>
+        <a href="#" data-target="slide-out" class="openSidebarUser sidenav-trigger right"><img id="" src="/img/avatar.png" class=" nav-img-profile" ></a>
         <ul class="right hide-on-med-and-down">
-          <!--<li><a href="http://apps.twicky.com.mx">Apps</a></li>-->
-          <li><a id="" class="lnkSite modal-trigger" link="http://info.twicky.com.mx">Info Twicky</a></li>
-          <!--<li><a link="http://lab.twicky.com.mx">Lab</a></li>-->
-          <li><a id="" class="lnkSite modal-trigger" link="http://games.twicky.com.mx">Twicky Games</a></li>
           <li><a id="" href="/portafolio">Portafolio</a></li>
-          
           <li class="openSidebarUser sidenav-trigger" data-target="slide-out">
-            <img id="" src="http://opemo.twicky.com.mx/defaultData/avatar_.png" class=" nav-img-profile" >
+            <img id="" src="/img/avatar.png" class=" nav-img-profile" >
           </li>
           
         </ul>
@@ -43,11 +38,7 @@
   </nav>
 </div>
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="http://info.twicky.com.mx">Info</a></li>
-      <!--<li><a href="http://lab.twicky.com.mx">Lab</a></li>-->
-      <li><a href="http://games.twicky.com.mx">Games</a></li>
       <li><a id="" class="" href="/portafolio">Portafolio</a></li>
-      
     </ul>
 
  

@@ -85,12 +85,15 @@
     <div class="carousel-item blue white-text center" href="#one!">
       <div class="ec-cover-style cover-text">
         <h1 >Twicky</h1>
-        <p class="center white-text flow-text" style="">Twicky es un multisitio creado principalmente por estudiantes, primeramente para explotar proyectos web pero hoy en día se pueden mostrar todo tipo de aplicaciones y programas  </p>
+        <p class="center white-text flow-text" style="">
+          Twicky es un desarrollo independiente para dar a conocer disintos proyectos, apps, juegos, sitios web
+        </p>
       </div>
       <div class="cover-image-container">
         <img class="cover-image" src="img/cyber.jpg">
       </div>
     </div>
+    <!--
     <div class="carousel-item blue darken-1 white-text" href="#one!">
       <div class="ec-cover-style cover-text">
         <h1 >Info Twicky</h1>
@@ -103,7 +106,8 @@
       </div>
       
     </div>
-    
+    -->
+    <!--
     <div class="carousel-item grey darken-4 blue-text" href="#three!">
       <div class="ec-cover-style cover-text">
         <h1 >Twicky Games</h1>
@@ -116,6 +120,7 @@
       </div>
       
     </div>
+    -->
     <div class="carousel-item grey white-text" href="#four!">
        <div class="ec-cover-style cover-text">
         <h1>Portafolio</h1>
@@ -127,7 +132,7 @@
         <img class="cover-image" src="img/portafolio.jpg">
 
       </div>
-      
+      -->
     </div>
   </div>
   <script>

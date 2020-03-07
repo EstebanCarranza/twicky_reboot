@@ -6,7 +6,7 @@
         <div class="background blue">
           <!--<img src="#">-->
         </div>
-        <a href="#user"><img class="circle" src="http://opemo.twicky.com.mx/defaultData/avatar_.png"></a>
+        <a href="#user"><img class="circle" src="/img/avatar.png"></a>
         <a href="#name"><span class="white-text name">Iniciar sesión</span></a>
         <br>
       </div>
@@ -15,7 +15,7 @@
         <div class="background blue">
           <!--<img src="#">-->
         </div>
-        <a href="#user"><img class="circle" src="http://opemo.twicky.com.mx/defaultData/avatar_.png"></a>
+        <a href="#user"><img class="circle" src="/img/avatar.png"></a>
         <a href="#name"><span class="white-text name">{{Auth::user()->name}}</span></a>
         <a href="#email"><span class="white-text email">{{Auth::user()->email}}</span></a>
       </div>
