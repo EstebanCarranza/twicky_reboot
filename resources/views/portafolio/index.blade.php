@@ -29,11 +29,15 @@
                         <img class='activator' src='{{$cardPublication->pathImagePreview}}'>
                     </div>
                     <div class='card-content'>
-                        <span class='card-title activator grey-text text-darken-4'>{{ $cardPublication->title }}<i class='material-icons right'>more_vert</i></span>
+                        <span class='card-title activator grey-text text-darken-4'>{{ $cardPublication->title }}
+                        <label>{{ $cardPublication->release_date }} </label>
+                        <i class='material-icons right'>more_vert</i></span>
                         <p><a href='/portafolio/{{ $cardPublication->id }}'>Ver más</a></p>
                     </div>
                     <div class='card-reveal'>
-                        <span class='card-title grey-text text-darken-4'>{{ $cardPublication->title }}<i class='material-icons right'>close</i></span>
+                        <span class='card-title grey-text text-darken-4'>{{ $cardPublication->title }}
+                        <label class="">{{ $cardPublication->release_date }} </label>
+                        <i class='material-icons right'>close</i></span>
                         <p>
                         {{ $cardPublication->description }}
                         </p>
@@ -43,6 +47,7 @@
                             <li>•&nbsp;Por definir</li>
                             </ul>
                         </p>
+                        <p><a href='/portafolio/{{ $cardPublication->id }}'>Ver más</a></p>
                     </div>
                     </div>
                 </div>

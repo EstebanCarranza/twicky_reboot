@@ -24,6 +24,7 @@ class TblPublication extends Migration
             $table->text('pathImagePreview');
             $table->integer('idPublicationMedia');
             $table->integer('idCategory');
+            $table->timestamp('release_date');
             $table->boolean('active')->default(true);
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));

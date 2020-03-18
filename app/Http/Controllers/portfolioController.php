@@ -29,7 +29,7 @@ class portfolioController extends Controller
             
             try{
                 $publicationList = publicationsModel::where($whereData)
-                ->orderBy('updated_at', 'desc')
+                ->orderBy('release_date', 'desc')
                 ->take(10)
                 ->get();
             }catch(QueryException $ex){
@@ -44,7 +44,7 @@ class portfolioController extends Controller
             try{
                 //Obtener los registros con base a los criterios
                 $publicationList = publicationsModel::where($whereData)
-                ->orderBy('updated_at', 'desc')
+                ->orderBy('release_date', 'desc')
                 ->take(10)
                 ->get();
             }catch(QueryException $ex){
@@ -98,7 +98,7 @@ class portfolioController extends Controller
         try{
             //Obtener los registros con base a los criterios de búsqueda
             $publicationList = publicationsModel::where($whereData)
-            ->orderBy('updated_at', 'desc')
+            ->orderBy('release_date', 'desc')
             ->take(1)
             ->get(); 
         }catch(QueryException $ex){
