@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use App\Http\Models\publicationsModel;
+use App\Http\Models\infoCompanyModel;
 use Illuminate\Database\QueryException;
 
 class portfolioController extends Controller
@@ -53,8 +54,9 @@ class portfolioController extends Controller
                 $publicationList = array();
             }
         }
+        $infoCompany = new infoCompanyModel();
         //Enviar los resultados a la vista para mostrarlos
-        return view('portafolio.index')->with('cardPublications',$publicationList)->with('errorList',$errorsList);  
+        return view('portafolio.index')->with('cardPublications',$publicationList)->with('errorList',$errorsList)->with('infoCompany',$infoCompany);  
     }
 
     /**

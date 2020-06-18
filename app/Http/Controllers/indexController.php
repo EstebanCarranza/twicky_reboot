@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Models\infoCompanyModel;
 
 class indexController extends Controller
 {
@@ -13,9 +14,9 @@ class indexController extends Controller
      */
     public function index()
     {
-
+        $infoCompany = new infoCompanyModel();
         //view index
-        return view('index');
+        return view('index')->with('infoCompany',$infoCompany);
     }
 
     /**
