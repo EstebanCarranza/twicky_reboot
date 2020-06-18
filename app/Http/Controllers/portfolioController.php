@@ -27,7 +27,7 @@ class portfolioController extends Controller
             //Agregar la condición de la categoria default
             array_push($whereData, ['idCategory', '=','1']);
             //Obtener los registros de la base de datos
-            
+
             try{
                 $publicationList = publicationsModel::where($whereData)
                 ->orderBy('release_date', 'desc')
@@ -56,7 +56,7 @@ class portfolioController extends Controller
         }
         $infoCompany = new infoCompanyModel();
         //Enviar los resultados a la vista para mostrarlos
-        return view('portafolio.index')->with('cardPublications',$publicationList)->with('errorList',$errorsList)->with('infoCompany',$infoCompany);  
+        return view('portafolio.index')->with('cardPublications',$publicationList)->with('errorList',$errorsList)->with('infoCompany',$infoCompany);
     }
 
     /**
@@ -66,8 +66,8 @@ class portfolioController extends Controller
      */
     public function create()
     {
-        //
-        return view('portafolio.create');
+        $infoCompany = new infoCompanyModel();
+        return view('portafolio.create')->with('infoCompany',$infoCompany);
     }
 
     /**
@@ -102,14 +102,15 @@ class portfolioController extends Controller
             $publicationList = publicationsModel::where($whereData)
             ->orderBy('release_date', 'desc')
             ->take(1)
-            ->get(); 
+            ->get();
         }catch(QueryException $ex){
             //return "no conection bd";
             array_push($errorsList, 'No hay conexión con el servidor, intenta más tarde :('); //$ex->getMessage());
             $publicationList = array(new publicationsModel());
         }
+        $infoCompany = new infoCompanyModel();
         //Enviar los datos obtenidos a la vista para mostrarlos
-        return view('portafolio.show')->with('cardPublication',$publicationList[0])->with('errorList',$errorsList);
+        return view('portafolio.show')->with('cardPublication',$publicationList[0])->with('errorList',$errorsList)->with('infoCompany',$infoCompany);
     }
 
     /**
